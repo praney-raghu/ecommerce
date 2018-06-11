@@ -1,0 +1,30 @@
+{
+    "name": "neev/commerce",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sambhav Aggarwal",
+            "email": "sambhav@ssntpl.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ECommerce\\Providers\\ECommerceServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ECommerce\\": ""
+        }
+    }
+}
